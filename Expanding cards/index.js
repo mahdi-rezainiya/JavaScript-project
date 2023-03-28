@@ -1,6 +1,3 @@
-// const url1 = 'https://jsonplaceholder.typicode.com/todos/1' ;
-// const url2 = 'https://jsonplaceholder.typicode.com/todos/2' ;
-// const url3 = 'https://jsonplaceholder.typicode.com/todos/3' ;
 const panels = document.querySelectorAll('.panel');
 
 panels.forEach(panel => {
