@@ -1,1 +1,1 @@
-# JavaScript-project
+this is a java script course
