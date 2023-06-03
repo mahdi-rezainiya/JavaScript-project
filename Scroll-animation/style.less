@@ -1,0 +1,44 @@
+@flex : flex ;
+@center : center ;
+@myFont : hayat ;
+@mySize : 45px ;
+@number : 20px ;
+
+body{
+    background-color: #efedd6;
+    font-family: @myFont;
+    display: @flex;
+    flex-direction: column;
+    align-items: @center;
+    justify-content: @center;
+    margin: @number * 0 ;
+    overflow-x: hidden;
+    h1{
+        margin: 10px ;
+        font-size: @number + 30 ;
+    }
+    .box{
+        background-color: #0d8640;
+        color: #fff;
+        display: @flex;
+        align-items: @center;
+        justify-content: @center;
+        width: @number * 20;
+        height: @number * 10;
+        margin: @number - 10;
+        border-radius: @number - 10 ;
+        box-shadow: 2px 4px 5px rgba(0 , 0 , 0 , 0.4);
+        transform: translateX(400%);
+        transition: transform 0.4s ease;
+
+        &:nth-of-type(even){
+            transform: translateX(-400%);
+        }
+        &.show{
+            transform: translateX(0);
+        }
+        & h2{
+            font-size: @mySize;
+        }
+    }
+}
