@@ -1,59 +1,59 @@
 .icon img, * body .location img {
-    height: 256px;
-    width: 256px;
+  height: 256px;
+  width: 256px;
 }
 
 .degree-section {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 .degree-section span {
-    margin: 10px;
-    font-size: 30px;
+  margin: 10px;
+  font-size: 30px;
 }
 .degree-section h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .temperature-description {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    cursor: pointer;
-    user-select: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  user-select: none;
 }
 * body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
-    font-family: sans-serif;
-    color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+  font-family: sans-serif;
+  color: white;
 }
 * body #opencode {
-    font-size: 45px;
-    margin-bottom: 100px;
+  font-size: 45px;
+  margin-bottom: 100px;
 }
 * body .location {
-    height: 30vh;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 * body .temperature {
-    height: 30vh;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-/*# sourceMappingURL=style1.css.map */
+/*# sourceMappingURL=style.css.map */
