@@ -8,12 +8,10 @@
   align-items: center;
   cursor: pointer;
 }
+
 .degree-section span {
   margin: 10px;
   font-size: 30px;
-}
-.degree-section h2 {
-  font-size: 40px;
 }
 
 .temperature-description {
@@ -27,6 +25,7 @@
   cursor: pointer;
   user-select: none;
 }
+
 * body {
   height: 100vh;
   display: flex;
@@ -37,10 +36,12 @@
   font-family: sans-serif;
   color: white;
 }
+
 * body #opencode {
   font-size: 45px;
   margin-bottom: 100px;
 }
+
 * body .location {
   height: 30vh;
   width: 50%;
@@ -48,6 +49,7 @@
   justify-content: space-around;
   align-items: center;
 }
+
 * body .temperature {
   height: 30vh;
   width: 50%;
