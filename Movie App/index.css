@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -27,7 +28,7 @@ header{
     font-family: 'Poppins', sans-serif;
 }
 .search::placeholder{
-    color: #7378c5;
+        color: #7378c5;
 }
 .search:focus{
     outline: none;
@@ -58,7 +59,7 @@ main{
     padding: 0.5rem 1rem 1rem;
     letter-spacing: 0.5px;
 }
-.movie-info h3{
+.movie-info{
     margin-top: 0;
 }
 .movie-info span{
@@ -91,13 +92,3 @@ main{
 .movie:hover .overview{
     transform: translateY(0);
 }
-
-
-
-
-
-
-
-
-
-

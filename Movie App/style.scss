@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+$fontFm : 'Poppins', sans-serif ;
+$color1 : #2225db ;
+$color2 : #373b69 ;
+$distance : 1rem ;
+*{
+    box-sizing: border-box;
+    body{
+        background-color: $color1;
+        font-family: $fontFm;
+        margin: 0;
+        header{
+            padding: $distance;
+            display: flex;
+            justify-content: end;
+            background-color: $color2;
+            #form{
+                display: flex;
+                justify-content: space-between;
+                .search{
+                    background-color: transparent;
+                    border: 2px solid #22254b;
+                    border-radius: 50px ;
+                    padding: $distance/2 $distance;
+                    color: #fff;
+                    font : {family : $fontFm ; size : $distance};
+                    ::placeholder{color: #7378c5;};
+                    :focus{outline: none; background-color: #22254b;}
+                }
+            }
+        }
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .movie{
+                width: 300px;
+                margin: $distance;
+                background-color: $color2;
+                box-shadow: 0 4px 5px rgba(0 , 0 , 0 , 0.2);
+                position: relative;
+                overflow: hidden;
+                border-radius: 0.5px;
+                img{
+                    width: 100%;
+                }
+                .movie-info{
+                    color: #eee;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: $distance/2 $distance $distance;
+                    letter-spacing: 0.5px;
+                    margin-top: 0;
+                    span{
+                        background-color: #22254b;
+                        padding: $distance/4 $distance/2;
+                        border-radius: 4px;
+                        font-weight: bold;
+                        .green{
+                            color : green ;
+                        }
+                        .orange{
+                            color: orange;
+                        }
+                        .red{
+                            color: red;
+                        }
+                    }
+                }
+                .overview{
+                    background-color: #fff;
+                    padding: $distance * 2;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    max-height: 100%;
+                    transform: translateY(101%);
+                    overflow-y: auto;
+                    transition: transform 0.3s ease-in;
+                }
+            }
+        }
+    }
+}
+.movie:hover .overview{
+    transform: translateY(0);
+}
