@@ -65,13 +65,13 @@
   border-radius: 4px;
   font-weight: bold;
 }
-* body main .movie .movie-info span .green {
+* body main .movie .movie-info span.green {
   color: green;
 }
-* body main .movie .movie-info span .orange {
+* body main .movie .movie-info span.orange {
   color: orange;
 }
-* body main .movie .movie-info span .red {
+* body main .movie .movie-info span.red {
   color: red;
 }
 * body main .movie .overview {
@@ -86,7 +86,6 @@
   overflow-y: auto;
   transition: transform 0.3s ease-in;
 }
-
 .movie:hover .overview {
   transform: translateY(0);
 }
